@@ -74,7 +74,7 @@ const Adder = () => {
   };
 
   return (
-    <div>
+    <div className='flex flex-col items-center justify-center'>
       <h1>Adder DApp</h1>
       <button onClick={connectWallet}>Connect Wallet</button>
       <div>
